@@ -1,0 +1,62 @@
+.footer {
+    overflow: hidden;
+    background-color: #000;
+    padding: 20px 10px;
+    position: sticky;
+    top: 100%;
+}
+.menu-title {
+    color: #fff;
+    font-size: 30px;
+    width: 60%;
+    text-align: center;
+}
+.owner-contact {
+    color: #fff;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 5px;
+    font-size: 17px
+}
+a:hover {
+    color: rgb(75, 121, 6);
+}
+i {
+    color: #ed1212;
+    padding: 0px 10px;
+}
+.menu-page {
+    margin-left: 15px;
+}
+.menu-service {
+    margin-left: 20px;
+}
+
+.icone-styled i {
+    float: right;
+}
+p {
+    color: #fff;
+    float: right;
+}
+.list-styled ul, ul.list-styled {
+    list-style: none;
+    padding: 0;
+}
+li {
+    padding: 5px;
+    text-align: -webkit-match-parent;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.social-media {
+    float: right;
+}
