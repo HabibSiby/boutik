@@ -1,13 +1,14 @@
 import { Component } from '@angular/core';
-import { HomeComponent } from "../home/home.component";
-import { FooterComponent } from "../footer/footer.component";
 import { RouterOutlet } from '@angular/router';
-import { NavbarComponent } from "../navbar/navbar.component";
+import { HomeComponent } from '../Module/feture/components/home/home.component';
+import { NavbarComponent } from '../Module/shared/components/navbar/navbar.component';
+import { FooterComponent } from '../Module/shared/components/footer/footer.component';
+import { ProductsComponent } from "../Module/feture/components/products/products.component";
 
 @Component({
   selector: 'app-container',
   standalone: true,
-  imports: [HomeComponent, FooterComponent, RouterOutlet, NavbarComponent],
+  imports: [HomeComponent, RouterOutlet, NavbarComponent, FooterComponent, ProductsComponent],
   templateUrl: './container.component.html',
   styleUrl: './container.component.css'
 })

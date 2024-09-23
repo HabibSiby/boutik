@@ -1,9 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { HomeComponent } from "./home/home.component";
-import { FooterComponent } from './footer/footer.component';
-import { MenuComponent } from './sharepages/menu/menu.component';
 import { ContainerComponent } from "./container/container.component";
+import { HomeComponent } from './Module/feture/components/home/home.component';
 
 @Component({
   selector: 'app-root',
